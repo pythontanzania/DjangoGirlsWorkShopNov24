@@ -78,9 +78,8 @@ django-chat-app/
 ## 💻 Usage
 
 1. Navigate to `http://localhost:8000`
-2. Create an account or log in
-3. Create a new chat room or join an existing one
-4. Start chatting in real-time!
+2. Provide a username and a new chat room or join an existing one
+3. Start chatting in real-time!
 
 ## 🔧 Configuration
 
