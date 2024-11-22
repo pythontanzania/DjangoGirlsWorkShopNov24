@@ -14,7 +14,7 @@ A real-time chat application built with Django and WebSockets, enabling instant 
 
 ## 🛠️ Technologies Used
 
-- Django 4.x
+- Django 5.x
 - Channels (WebSockets)
 - Redis
 - HTML/CSS
@@ -23,7 +23,7 @@ A real-time chat application built with Django and WebSockets, enabling instant 
 
 ## 📋 Prerequisites
 
-- Python 3.8+
+- Python 3.10+
 - Redis Server
 - Virtual Environment
 
