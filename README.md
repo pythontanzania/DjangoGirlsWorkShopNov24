@@ -115,7 +115,7 @@ For more detailed information, please refer to the [Django Girls Workshop Guide]
 
 ## 👥 Authors
 
-- [Fuad Habib](https://github.com/Av
+- [Fuad Habib](https://github.com/AvicennaJr)
 
 ---
 ⭐️ Star this repository if you find it helpful!
