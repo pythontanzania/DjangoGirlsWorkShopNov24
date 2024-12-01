@@ -16,7 +16,6 @@ A real-time chat application built with Django and WebSockets, enabling instant 
 
 - Django 5.x
 - Channels (WebSockets)
-- Redis
 - HTML/CSS
 - JavaScript
 - SQLite3
@@ -46,21 +45,12 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. **Set up Redis**
-```bash
-# On Ubuntu/Debian
-sudo apt-get install redis-server
-
-# On macOS
-brew install redis
-```
-
-5. **Apply migrations**
+4. **Apply migrations**
 ```bash
 python manage.py migrate
 ```
 
-6. **Run the development server**
+5. **Run the development server**
 ```bash
 python manage.py runserver
 ```
@@ -81,20 +71,6 @@ django-chat-app/
 2. Provide a username and a new chat room or join an existing one
 3. Start chatting in real-time!
 
-## 🔧 Configuration
-
-Key settings can be found in `config/settings.py`:
-
-```python
-CHANNEL_LAYERS = {
-    'default': {
-        'BACKEND': 'channels_redis.core.RedisChannelLayer',
-        'CONFIG': {
-            "hosts": [('127.0.0.1', 6379)],
-        },
-    },
-}
-```
 
 ## 🤝 Contributing
 
