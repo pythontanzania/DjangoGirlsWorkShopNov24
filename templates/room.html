@@ -41,7 +41,7 @@
   );
 
   // Create WebSocket connection URL and establish connection
-  const url = 'ws://' + window.location.host + '/ws/room/' + room_name + '/' + username + '/';
+  const url = 'wss://' + window.location.host + '/ws/room/' + room_name + '/' + username + '/';
   const chatSocket = new WebSocket(url);
 
   // Handle incoming messages
