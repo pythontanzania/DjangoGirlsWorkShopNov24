@@ -23,7 +23,6 @@ A real-time chat application built with Django and WebSockets, enabling instant 
 ## 📋 Prerequisites
 
 - Python 3.10+
-- Redis Server
 - Virtual Environment
 
 ## 🚀 Installation
