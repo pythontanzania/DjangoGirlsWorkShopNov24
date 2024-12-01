@@ -360,3 +360,53 @@ body {
 .nav-link:hover::after {
   width: 80%;
 }
+
+.call-container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.call-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease;
+}
+
+.call-card:hover {
+  transform: translateY(-2px);
+}
+
+.profile-image {
+  width: 160px;
+  height: 160px;
+  padding: 1rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #8b5cf6;
+}
+
+.video-container {
+  position: relative;
+  margin-top: 2rem;
+}
+
+#localVideo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 120px;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 3px solid #fff
+}
+
+#remoteVideo {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
