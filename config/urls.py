@@ -21,5 +21,6 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("chat.urls", namespace="chat")),
+    path("call/", include("call.urls", namespace="call")),
     path("__reload__/", include("django_browser_reload.urls")),
 ]
